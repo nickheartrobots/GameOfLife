@@ -131,6 +131,7 @@ namespace GameOfLife
 
         static void Main(string[] args)
         {
+            Console.Title = "Conway's Game of Life";
             var game = new Program();
 
             while (true)
